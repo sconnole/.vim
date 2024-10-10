@@ -10,6 +10,8 @@ Plug 'dense-analysis/ale'
 Plug 'junegunn/fzf' | Plug 'junegunn/fzf.vim'
 Plug 'yggdroot/indentline'
 Plug 'ryanoasis/vim-devicons'
+Plug 'airblade/vim-gitgutter'
+Plug 'zivyangll/git-blame.vim'
 
 call plug#end()
 

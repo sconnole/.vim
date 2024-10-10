@@ -7,8 +7,6 @@ autocmd BufWinEnter * silent NERDTreeMirror
 
 let g:NERDTreeDirArrowExpandable = '' " '→'  These aren't playing nicely with folder icons
 let g:NERDTreeDirArrowCollapsible = '' " '↓'
-let g:NERDTreeQuitOnOpen = 1
-let g:NERDTreeShowHidden=1
 
 
 " ALE

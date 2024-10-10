@@ -27,8 +27,9 @@ set formatoptions-=cro
 set noerrorbells visualbell t_vb=
 set noswapfile
 set nobackup
-set undodir=~/.vim/undodir
+set undodir=~/.vim/undo
 set undofile
+set undolevels=10000
 set clipboard=unnamed
 
 set ignorecase
@@ -60,8 +61,11 @@ nnoremap <leader>sh :topleft vnew<CR><ESC>
 nnoremap <leader>sj :botright new<CR><ESC>
 nnoremap <leader>sk :topleft vnew<CR><ESC>
 
-" Git Blame
-nnoremap <leader>b :execute "Git blame -L " . line(".") . "," . line(".") . " %"<CR>
+" GitBlame
+nnoremap <Leader>b :<C-u>call gitblame#echo()<CR>
+
+" Copy Buffer Path
+nnoremap <leader>y :let @+=expand('%:p')<CR><ESC>
 
 " Source current file
 nnoremap <leader>s :source %<CR>
