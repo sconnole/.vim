@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/sean'
+let g:netrw_dirhist_1='/Users/sean/.vim'
+let g:netrw_dirhist_0='/Users/sean'
+let g:netrw_dirhist_9='/Users/sean/.vim'
+let g:netrw_dirhist_8='/Users/sean'
+let g:netrw_dirhist_7='/Users/sean/.vim'
+let g:netrw_dirhist_6='/Users/sean'
+let g:netrw_dirhist_5='/Users/sean/.vim'
+let g:netrw_dirhist_4='/Users/sean'
+let g:netrw_dirhist_3='/Users/sean/Developer/temp/chproxy/clients'
