@@ -45,8 +45,6 @@ if &term =~ 'xterm'
   let &t_EI = "\e[1 q"  " Change cursor to block in normal mode
 endif
 
-vnoremap <C-c> :w !pbcopy<CR><CR> noremap <C-v> :r !pbpaste<CR><CR>
-
 let mapleader = " "   " Set leader to spacebar
 
 " Window navigation
