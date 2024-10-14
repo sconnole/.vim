@@ -12,6 +12,7 @@ Plug 'yggdroot/indentline'
 Plug 'ryanoasis/vim-devicons'
 Plug 'airblade/vim-gitgutter'
 Plug 'zivyangll/git-blame.vim'
+Plug 'jvirtanen/vim-hcl'
 
 call plug#end()
 

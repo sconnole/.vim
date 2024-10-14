@@ -7,7 +7,7 @@ autocmd BufWinEnter * silent NERDTreeMirror
 
 let g:NERDTreeDirArrowExpandable = '' " '→'  These aren't playing nicely with folder icons
 let g:NERDTreeDirArrowCollapsible = '' " '↓'
-
+let g:NERDTreeWinSize = 48
 
 " ALE
 let g:ale_fixers = {
@@ -16,7 +16,7 @@ let g:ale_fixers = {
 let g:ale_fix_on_save = 1
 let g:ale_sign_error = '✘'
 let g:ale_sign_warning = '⚠'
-
+let g:airline#extensions#ale#enabled = 1
 
 " FZF searching
 nnoremap <C-f> :Rg<CR>
