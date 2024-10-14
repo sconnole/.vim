@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'tomasiser/vim-code-dark'
 Plug 'nanotech/jellybeans.vim'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
-Plug 'scrooloose/nerdtree'
+Plug 'lambdalisue/vim-fern'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'dense-analysis/ale'

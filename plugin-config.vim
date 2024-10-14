@@ -1,15 +1,7 @@
-" NERD TREE
-nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <leader>e :NERDTreeToggle<CR>
-
-let NERDTreeShowHidden=1
-let NERDTreeRespectWildIgnore=1
-set wildignore+=*.DS_Store,*.min.*
-autocmd BufWinEnter * silent NERDTreeMirror
-
-let g:NERDTreeDirArrowExpandable = '' " '→'  These aren't playing nicely with folder icons
-let g:NERDTreeDirArrowCollapsible = '' " '↓'
-let g:NERDTreeWinSize = 48
+" FERN Tree
+nnoremap <leader>e :Fern . -reveal=%<CR>
+nnoremap <leader>d :Fern . -drawer -reveal=%<CR>
+let g:fern#default_hidden = 1
 
 " ALE
 let g:ale_fixers = {

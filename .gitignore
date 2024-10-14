@@ -1,3 +1,4 @@
 plugged/
 undo/**
 !undo/README.md
+.DS_STORE

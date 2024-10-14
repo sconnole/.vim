@@ -1,4 +1,8 @@
 " syntax on
+let mapleader = " "   " Set leader to spacebar
+" Disable netrw
+let g:loaded_netrw = 1
+let g:loaded_netrwPlugin = 1
 
 set fileformat=unix
 set encoding=UTF-8
@@ -37,15 +41,13 @@ set smartcase
 set incsearch
 set hlsearch
 nnoremap <CR> :noh<CR><CR>:<backspace>
-so ~/.vim/plugins.vim
-so ~/.vim/plugin-config.vim
+source ~/.vim/plugins.vim
+source ~/.vim/plugin-config.vim
 
 if &term =~ 'xterm'
   let &t_SI = "\e[5 q"  " Change cursor to I-beam in insert mode
   let &t_EI = "\e[1 q"  " Change cursor to block in normal mode
 endif
-
-let mapleader = " "   " Set leader to spacebar
 
 " Window navigation
 nnoremap <C-h> <C-w>h
