@@ -17,6 +17,6 @@ nnoremap <C-f> :Rg<CR>
 inoremap <C-f> :Rg<CR>
 vnoremap <C-f> :Rg<CR>
 
-nnoremap <C-S-f> :Files<CR>
-inoremap <C-S-f> :Files<CR>
-vnoremap <C-S-f> :Files<CR>
+nnoremap <leader>f :Files<CR>
+inoremap <leader>f :Files<CR>
+vnoremap <leader>f :Files<CR>
