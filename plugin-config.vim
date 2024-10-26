@@ -18,3 +18,17 @@ inoremap <C-f> :Rg<CR>
 vnoremap <C-f> :Rg<CR>
 
 nnoremap <leader>f :Files<CR>
+
+" vim-go
+let g:go_fmt_command = "goimports"
+let g:go_autodetect_gopath = 1
+let g:go_list_type = "quickfix"
+
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_generate_tags = 1
+
+nnoremap <leader>t :GoTestFunc<CR>

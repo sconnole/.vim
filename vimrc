@@ -16,7 +16,7 @@ set smarttab
 set expandtab
 set nowrap
 set list
-set listchars=eol:.,tab:>-,trail:~,extends:>,precedes:<
+set listchars=eol:.,tab:~▸,trail:~,extends:>,precedes:<
 
 set cursorline
 set number

@@ -14,6 +14,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'zivyangll/git-blame.vim'
 Plug 'jvirtanen/vim-hcl'
 Plug 'sheerun/vim-polyglot'
+Plug 'fatih/vim-go'
 
 call plug#end()
 
