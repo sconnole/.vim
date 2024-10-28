@@ -15,6 +15,7 @@ Plug 'zivyangll/git-blame.vim'
 Plug 'jvirtanen/vim-hcl'
 Plug 'sheerun/vim-polyglot'
 Plug 'fatih/vim-go'
+Plug 'wakatime/vim-wakatime'
 
 call plug#end()
 
