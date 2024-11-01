@@ -16,6 +16,7 @@ Plug 'jvirtanen/vim-hcl'
 Plug 'sheerun/vim-polyglot'
 Plug 'fatih/vim-go'
 Plug 'wakatime/vim-wakatime'
+Plug 'hashivim/vim-terraform'
 
 call plug#end()
 
