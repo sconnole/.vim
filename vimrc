@@ -24,7 +24,6 @@ set scrolloff=8
 set signcolumn=yes
 set showcmd
 set noshowmode
-set conceallevel=1
 set shortmess+=c
 set formatoptions-=cro
 
