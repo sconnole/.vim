@@ -17,6 +17,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'fatih/vim-go'
 Plug 'wakatime/vim-wakatime'
 Plug 'hashivim/vim-terraform'
+Plug 'vim-denops/denops.vim'
 
 call plug#end()
 
