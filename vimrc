@@ -24,8 +24,11 @@ set scrolloff=8
 set signcolumn=yes
 set showcmd
 set noshowmode
+set conceallevel=0
 set shortmess+=c
 set formatoptions-=cro
+set foldmethod=indent
+set foldlevel=6
 
 set noerrorbells visualbell t_vb=
 set noswapfile
