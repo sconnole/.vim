@@ -5,6 +5,7 @@ Plug 'nanotech/jellybeans.vim'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'lambdalisue/vim-fern'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-commentary'
 Plug 'dense-analysis/ale'
 Plug 'junegunn/fzf' | Plug 'junegunn/fzf.vim'
@@ -17,7 +18,6 @@ Plug 'sheerun/vim-polyglot'
 Plug 'fatih/vim-go'
 Plug 'wakatime/vim-wakatime'
 Plug 'hashivim/vim-terraform'
-Plug 'vim-denops/denops.vim'
 
 call plug#end()
 

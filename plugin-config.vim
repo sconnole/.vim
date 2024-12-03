@@ -9,11 +9,14 @@ let g:ale_fixers = {
 \   'javascript': ['prettier'],
 \   'typescript': ['prettier'],
 \   'css': ['prettier'],
+\   'python': ['black'],
 \}
 let g:ale_fix_on_save = 1
 let g:ale_sign_error = '✘'
 let g:ale_sign_warning = '⚠'
 let g:airline#extensions#ale#enabled = 1
+let g:airline_section_c = '%f'
+let g:airline_theme='deus'
 
 " FZF searching
 nnoremap <C-f> :Rg<CR>
