@@ -14,10 +14,15 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'airblade/vim-gitgutter'
 Plug 'zivyangll/git-blame.vim'
 Plug 'jvirtanen/vim-hcl'
-Plug 'sheerun/vim-polyglot'
 Plug 'fatih/vim-go'
-Plug 'wakatime/vim-wakatime'
 Plug 'hashivim/vim-terraform'
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'jwalton512/vim-blade'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'phpactor/phpactor', { 'for': 'php' }        " PHP Autocomplete
+Plug 'mattn/webapi-vim'                          " PHP language server integration
+
 
 call plug#end()
 

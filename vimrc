@@ -28,7 +28,7 @@ set conceallevel=0
 set shortmess+=c
 set formatoptions-=cro
 set foldmethod=indent
-set foldlevel=6
+set foldlevel=30
 
 set noerrorbells visualbell t_vb=
 set noswapfile
