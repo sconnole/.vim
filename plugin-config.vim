@@ -20,6 +20,18 @@ let g:airline#extensions#ale#enabled = 1
 let g:airline_section_c = '%f'
 let g:airline_theme='deus'
 
+" COC
+" Use <TAB> to select the popup menu:
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<Tab>"
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
+
+" gd to go to definition
+nmap <silent> gd <Plug>(coc-definition)
+" gr to go to reference
+nmap <silent> gr <Plug>(coc-references)
+
+
 " FZF searching
 nnoremap <C-f> :Rg<CR>
 inoremap <C-f> :Rg<CR>

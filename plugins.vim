@@ -22,7 +22,7 @@ Plug 'jwalton512/vim-blade'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'phpactor/phpactor', { 'for': 'php' }        " PHP Autocomplete
 Plug 'mattn/webapi-vim'                          " PHP language server integration
-
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
