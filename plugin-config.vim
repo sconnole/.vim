@@ -11,7 +11,7 @@ let g:ale_fixers = {
 \   'css': ['prettier'],
 \   'python': ['black'],
 \   'blade': ['prettier'],
-\   'php': ['prettier'],
+\   'php': ['php_cs_fixer'],
 \}
 let g:ale_fix_on_save = 1
 let g:ale_sign_error = '✘'
