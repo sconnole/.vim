@@ -13,6 +13,7 @@ let g:ale_fixers = {
 \   'blade': ['prettier'],
 \   'php': ['php_cs_fixer'],
 \}
+let g:ale_python_flake8_options = '--max-line-length=120'
 let g:ale_fix_on_save = 1
 let g:ale_sign_error = '✘'
 let g:ale_sign_warning = '⚠'
@@ -62,6 +63,8 @@ nmap <silent> gd <Plug>(coc-definition)
 " gr to go to reference
 nmap <silent> gr <Plug>(coc-references)
 
+" JSON Files don't respect autoconceal
+let g:vim_json_conceal = 0
 
 " FZF searching
 nnoremap <C-f> :Rg<CR>
