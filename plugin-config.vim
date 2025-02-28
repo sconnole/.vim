@@ -85,4 +85,7 @@ let g:go_highlight_function_calls = 1
 let g:go_highlight_extra_types = 1
 let g:go_highlight_generate_tags = 1
 
+" Define a custom command to run pest test for the current file
+command! Pest :execute 'term ./vendor/bin/pest ' . expand('%') . ' --dirty'
+
 nnoremap <leader>t :GoTestFunc<CR>
