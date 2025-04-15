@@ -80,4 +80,9 @@ let g:codedark_modern=1
 let g:codedark_italics=1
 let g:codedark_transparent=1
 
+" Customize ALE virtual text (inline error/warning messages)
+highlight ALEVirtualTextError ctermfg=DarkRed
+highlight ALEVirtualTextWarning ctermfg=Yellow
+highlight ALEVirtualTextInfo ctermfg=Blue
+
 hi Normal guibg=NONE ctermbg=NONE
