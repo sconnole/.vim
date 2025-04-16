@@ -13,7 +13,8 @@ let g:ale_fixers = {
 \   'blade': ['prettier'],
 \   'php': ['php_cs_fixer'],
 \}
-let g:ale_python_flake8_options = '--max-line-length=120'
+let g:ale_python_flake8_options = '--max-line-length=140'
+let g:ale_python_pylint_options = '--disable=missing-module-docstring,missing-class-docstring,missing-function-docstring'
 let g:ale_fix_on_save = 1
 let g:ale_sign_error = '✘'
 let g:ale_sign_warning = '⚠'
