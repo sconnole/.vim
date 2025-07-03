@@ -13,6 +13,7 @@ let g:ale_fixers = {
 \   'blade': ['prettier'],
 \   'php': ['php_cs_fixer'],
 \}
+
 let g:ale_python_flake8_options = '--max-line-length=140'
 let g:ale_python_pylint_options = '--disable=missing-module-docstring,missing-class-docstring,missing-function-docstring'
 let g:ale_fix_on_save = 1
@@ -21,6 +22,8 @@ let g:ale_sign_warning = '⚠'
 let g:airline#extensions#ale#enabled = 1
 let g:airline_section_c = '%f'
 let g:airline_theme='deus'
+
+autocmd BufWritePre *.tf silent! execute ':%!tofu fmt -'
 
 " COC
 " Having longer updatetime (default is 4000 ms = 4s) leads to noticeable
